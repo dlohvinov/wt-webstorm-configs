@@ -1,1 +1,10 @@
-!./.idea
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!.idea
+# etc...
+
+# ...even if they are in subdirectories
+!*/
