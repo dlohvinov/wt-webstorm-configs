@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8151537-1564-44a6-8cbf-cf8df163822c" name="WTEL-5592 Система обмежень користувача (/userinfo)" comment="refactor: compiled userinfo ts files [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)">
+    <list default="true" id="d8151537-1564-44a6-8cbf-cf8df163822c" name="WTEL-5592 Система обмежень користувача (/userinfo)" comment="fix">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/docs/pages/webitel-ui/components/wt-dual-panel/examples/example-dual-panel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/docs/pages/webitel-ui/components/wt-dual-panel/examples/example-dual-panel.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/components/wt-dual-panel/wt-dual-panel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/components/wt-dual-panel/wt-dual-panel.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/components/wt-icon-action/iconMappings.js" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/components/wt-icon-action/iconMappings.js" afterDir="false" />
@@ -49,7 +52,7 @@
         <entry key="$PROJECT_DIR$/webitel-ui-sdk" value="feat/dynamic-filters" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/webitel-ui-sdk" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -87,62 +90,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.adm:dev JavaScript.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.his:dev JavaScript.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.ui:dev JavaScript.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Vitest.AccessStore.allows route access if has global permission.executor&quot;: &quot;Run&quot;,
-    &quot;Vitest.AccessStore.allows route access if has scope permission and section visibility.executor&quot;: &quot;Run&quot;,
-    &quot;Vitest.AccessStore.allows route access if has scope permission.executor&quot;: &quot;Debug&quot;,
-    &quot;Vitest.AccessStore.executor&quot;: &quot;Run&quot;,
-    &quot;Vitest.AccessStore.guards route if no access.executor&quot;: &quot;Debug&quot;,
-    &quot;Vitest.AccessStore.guards route.executor&quot;: &quot;Debug&quot;,
-    &quot;Vitest.AccessStore.restricts route access if has scope permission, section visibility but no app visibility.executor&quot;: &quot;Debug&quot;,
-    &quot;Vitest.WtPopup.executor&quot;: &quot;Run&quot;,
-    &quot;Vitest.WtTableColumnSelect.column select popup is opening by icon-btn click.executor&quot;: &quot;Run&quot;,
-    &quot;Vitest.WtTableColumnSelect.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;js.buildTools.grunt.grunt-cli.package&quot;: &quot;&quot;,
-    &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/danii/Projects/webitel/client&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.cucumber.cucumber_node_package_dir&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.adm:dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.adm:link-ui.executor&quot;: &quot;Run&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.docs:build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.docs:dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.his:dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.his:link-ui.executor&quot;: &quot;Run&quot;,
-    &quot;npm.link:webitel-ui.executor&quot;: &quot;Run&quot;,
-    &quot;npm.test:unit.executor&quot;: &quot;Run&quot;,
-    &quot;npm.tsc (1).executor&quot;: &quot;Run&quot;,
-    &quot;npm.tsc.executor&quot;: &quot;Run&quot;,
-    &quot;npm.ui:build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.ui:dev.executor&quot;: &quot;Run&quot;,
-    &quot;prettier.import.notification.dismissed&quot;: &quot;true&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/danii/Projects/webitel/webitel-ui-sdk/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;tasks.open.task.update.state.enabled&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/danii/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.adm:dev JavaScript.executor": "Debug",
+    "JavaScript Debug.his:dev JavaScript.executor": "Debug",
+    "JavaScript Debug.ui:dev JavaScript.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Vitest.AccessStore.allows route access if has global permission.executor": "Run",
+    "Vitest.AccessStore.allows route access if has scope permission and section visibility.executor": "Run",
+    "Vitest.AccessStore.allows route access if has scope permission.executor": "Debug",
+    "Vitest.AccessStore.executor": "Run",
+    "Vitest.AccessStore.guards route if no access.executor": "Debug",
+    "Vitest.AccessStore.guards route.executor": "Debug",
+    "Vitest.AccessStore.restricts route access if has scope permission, section visibility but no app visibility.executor": "Debug",
+    "Vitest.WtPopup.executor": "Run",
+    "Vitest.WtTableColumnSelect.column select popup is opening by icon-btn click.executor": "Run",
+    "Vitest.WtTableColumnSelect.executor": "Run",
+    "git-widget-placeholder": "main",
+    "js.buildTools.grunt.grunt-cli.package": "",
+    "js.buildTools.gulp.gulp_package_dir": "",
+    "last_opened_file_path": "/home/danii/Projects/webitel/client",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.cucumber.cucumber_node_package_dir": "",
+    "nodejs_package_manager_path": "npm",
+    "npm.adm:dev.executor": "Run",
+    "npm.adm:link-ui.executor": "Run",
+    "npm.build.executor": "Run",
+    "npm.dev.executor": "Run",
+    "npm.docs:build.executor": "Run",
+    "npm.docs:dev.executor": "Run",
+    "npm.his:dev.executor": "Run",
+    "npm.his:link-ui.executor": "Run",
+    "npm.link:webitel-ui.executor": "Run",
+    "npm.test:unit.executor": "Run",
+    "npm.tsc (1).executor": "Run",
+    "npm.tsc.executor": "Run",
+    "npm.ui:build.executor": "Run",
+    "npm.ui:dev.executor": "Run",
+    "prettier.import.notification.dismissed": "true",
+    "prettierjs.PrettierConfiguration.Package": "/home/danii/Projects/webitel/webitel-ui-sdk/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.sync",
+    "tasks.open.task.update.state.enabled": "true",
+    "ts.external.directory.path": "/home/danii/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client" />
@@ -415,6 +418,7 @@
       <workItem from="1738323579029" duration="3910000" />
       <workItem from="1738580411980" duration="4659000" />
       <workItem from="1738662852568" duration="4525000" />
+      <workItem from="1738671631054" duration="348000" />
     </task>
     <task id="WTEL-3752" summary="US_05. [History] Зберегти пресет">
       <created>1693209741672</created>
@@ -425,7 +429,15 @@
       <option name="project" value="WTEL" />
       <updated>1738232566678</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix">
+      <option name="closed" value="true" />
+      <created>1738671978334</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738671978334</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <option name="createBranch" value="false" />
     <servers>
       <JIRA url="https://webitel.atlassian.net">
@@ -454,8 +466,24 @@
     </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="8bea11ab-33aa-4551-90e1-ebe9fbbde15e" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="RECENT_FILTERS">
       <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
         <entry key="User">
           <value>
             <list>
@@ -471,6 +499,36 @@
     </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="8bea11ab-33aa-4551-90e1-ebe9fbbde15e">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ROOT_NAMES" value="true" />
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -479,7 +537,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -501,7 +559,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat: wt-popup rewrite with composition api + TS, + added activator slot, + docs, + fixed tests [WTEL-3752](https://webitel.atlassian.net/browse/WTEL-3752)" />
     <MESSAGE value="bump version [WTEL-3752](https://webitel.atlassian.net/browse/WTEL-3752)" />
     <MESSAGE value="fix: compareSize.ts script [WTEL-3752](https://webitel.atlassian.net/browse/WTEL-3752)" />
     <MESSAGE value="bump ver [WTEL-3752](https://webitel.atlassian.net/browse/WTEL-3752)" />
@@ -526,7 +583,8 @@
     <MESSAGE value="feat: load-preset.svg icon [WTEL-3752](https://webitel.atlassian.net/browse/WTEL-3752)" />
     <MESSAGE value="refactor: upd user access mappings file [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
     <MESSAGE value="refactor: compiled userinfo ts files [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: compiled userinfo ts files [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
