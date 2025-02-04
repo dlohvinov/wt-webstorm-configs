@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cc-history" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cc-quality-auditor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cc-supervisor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cc-workspaces" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/client" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/crm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/web-client-auth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/webitel-ui-sdk" vcs="Git" />
+  </component>
+</project>

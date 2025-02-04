@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="global:link-ui" type="CompoundRunConfigurationType">
+    <toRun name="his:link-ui" type="js.build_tools.npm" />
+    <method v="2" />
+  </configuration>
+</component>
