@@ -4,26 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8151537-1564-44a6-8cbf-cf8df163822c" name="WTEL-5592 Система обмежень користувача (/userinfo)" comment="fix">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0e6126bf-03a0-4bfc-8ac6-d0c2db2226aa" name="feat: cases rbac permissions tab [WTEL-5298](https://webitel.atlassian.net/browse/WTEL-5298)" comment="fix: packages [WTEL-5298](https://webitel.atlassian.net/browse/WTEL-5298)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/docs/pages/webitel-ui/components/wt-dual-panel/examples/example-dual-panel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/docs/pages/webitel-ui/components/wt-dual-panel/examples/example-dual-panel.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/components/wt-dual-panel/wt-dual-panel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/components/wt-dual-panel/wt-dual-panel.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/components/wt-icon-action/iconMappings.js" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/components/wt-icon-action/iconMappings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/composables/useWtTable/useWtTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/composables/useWtTable/useWtTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WebitelApplications/AdminSections.js" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WebitelApplications/AdminSections.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WebitelApplications/AdminSections.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WebitelApplications/AdminSections.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WebitelApplications/AuditorSections.js" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WebitelApplications/AuditorSections.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WebitelApplications/AuditorSections.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WebitelApplications/AuditorSections.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WebitelApplications/CrmSections.js" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WebitelApplications/CrmSections.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WebitelApplications/CrmSections.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WebitelApplications/CrmSections.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WebitelApplications/SupervisorSections.js" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WebitelApplications/SupervisorSections.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WebitelApplications/SupervisorSections.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WebitelApplications/SupervisorSections.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/enums/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/locale/en/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/locale/en/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/locale/ru/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/locale/ru/ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webitel-ui-sdk/src/locale/ua/ua.js" beforeDir="false" afterPath="$PROJECT_DIR$/webitel-ui-sdk/src/locale/ua/ua.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/crm/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/crm/package.json" afterDir="false" />
     </list>
     <list id="04a51462-e904-40d1-9dec-5541a5c99552" name="Changes" comment="feat: load-preset.svg icon [WTEL-3752](https://webitel.atlassian.net/browse/WTEL-3752)" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,20 +23,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Composition API Component" />
         <option value="TypeScript File" />
+        <option value="Vue Composition API Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <branch-grouping>
+      <option value="repository" />
+    </branch-grouping>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/cc-history" value="refactor/registry-table-pinia-store" />
-        <entry key="$PROJECT_DIR$/client" value="refactor/user-access-v2" />
-        <entry key="$PROJECT_DIR$/webitel-ui-sdk" value="feat/dynamic-filters" />
+        <entry key="$PROJECT_DIR$/cc-history" value="fix/select-column-and-variables" />
+        <entry key="$PROJECT_DIR$/client" value="refactor/access-control-v2" />
+        <entry key="$PROJECT_DIR$/crm" value="feat/case-timeline" />
+        <entry key="$PROJECT_DIR$/webitel-ui-sdk" value="feature/add-reset-headers-store" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/crm" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -71,8 +60,8 @@
   </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/webitel/cc-history.git&quot;,
-    &quot;accountId&quot;: &quot;9dc9bead-2ebf-487a-9c46-272f98ac97aa&quot;
+    &quot;url&quot;: &quot;https://github.com/dlohvinov/wt-webstorm-configs.git&quot;,
+    &quot;accountId&quot;: &quot;a8a5d233-c6e1-40c4-ac4c-5b0f896a6429&quot;
   }
 }</component>
   <component name="NamedScopeManager">
@@ -93,6 +82,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JavaScript Debug.adm:dev JavaScript.executor": "Debug",
+    "JavaScript Debug.crm:dev JavaScript.executor": "Debug",
     "JavaScript Debug.his:dev JavaScript.executor": "Debug",
     "JavaScript Debug.ui:dev JavaScript.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -104,13 +94,15 @@
     "Vitest.AccessStore.guards route if no access.executor": "Debug",
     "Vitest.AccessStore.guards route.executor": "Debug",
     "Vitest.AccessStore.restricts route access if has scope permission, section visibility but no app visibility.executor": "Debug",
+    "Vitest.History heading section.executor": "Run",
+    "Vitest.History heading section.renders a component.executor": "Run",
     "Vitest.WtPopup.executor": "Run",
     "Vitest.WtTableColumnSelect.column select popup is opening by icon-btn click.executor": "Run",
     "Vitest.WtTableColumnSelect.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "js.buildTools.grunt.grunt-cli.package": "",
     "js.buildTools.gulp.gulp_package_dir": "",
-    "last_opened_file_path": "/home/danii/Projects/webitel/client",
+    "last_opened_file_path": "/home/danii/Projects/webitel/crm/.git/hooks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -122,20 +114,27 @@
     "npm.adm:dev.executor": "Run",
     "npm.adm:link-ui.executor": "Run",
     "npm.build.executor": "Run",
+    "npm.crm:dev.executor": "Run",
+    "npm.crm:link-ui.executor": "Run",
     "npm.dev.executor": "Run",
     "npm.docs:build.executor": "Run",
     "npm.docs:dev.executor": "Run",
     "npm.his:dev.executor": "Run",
     "npm.his:link-ui.executor": "Run",
+    "npm.i (1).executor": "Run",
+    "npm.i.executor": "Run",
     "npm.link:webitel-ui.executor": "Run",
+    "npm.prepare.executor": "Run",
+    "npm.test:unit (1).executor": "Run",
     "npm.test:unit.executor": "Run",
     "npm.tsc (1).executor": "Run",
     "npm.tsc.executor": "Run",
     "npm.ui:build.executor": "Run",
     "npm.ui:dev.executor": "Run",
+    "npm.unlink:webitel-ui.executor": "Run",
     "prettier.import.notification.dismissed": "true",
-    "prettierjs.PrettierConfiguration.Package": "/home/danii/Projects/webitel/webitel-ui-sdk/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.sync",
+    "prettierjs.PrettierConfiguration.Package": "/home/danii/Projects/webitel/client/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "tasks.open.task.update.state.enabled": "true",
     "ts.external.directory.path": "/home/danii/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
@@ -148,90 +147,38 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client" />
-      <recent name="$PROJECT_DIR$/webitel-ui-sdk/src/components/wt-table/types" />
-      <recent name="$PROJECT_DIR$/webitel-ui-sdk/docs/pages/webitel-ui/components/wt-popup/examples" />
-      <recent name="$PROJECT_DIR$/webitel-ui-sdk/src/assets/icons/sprite" />
+      <recent name="$PROJECT_DIR$/crm/.git/hooks" />
+      <recent name="$PROJECT_DIR$/crm/src/modules/userinfo/store" />
+      <recent name="$PROJECT_DIR$/crm/src/app/composables" />
+      <recent name="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/filters/components/filters/users" />
+      <recent name="$PROJECT_DIR$/webitel-ui-sdk/src/composables/useAccessControl/v2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Userinfo/v2/stores" />
-      <recent name="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Userinfo/v2/\" />
-      <recent name="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Userinfo/v2/scripts" />
-      <recent name="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Userinfo/v2/types" />
-      <recent name="$PROJECT_DIR$/client/src/modules/userinfo/deprecated" />
+      <recent name="$PROJECT_DIR$/cc-history/src/modules/filters" />
+      <recent name="$PROJECT_DIR$/cc-history/src/modules/filters/components" />
+      <recent name="$PROJECT_DIR$/crm/src/modules/userinfo/store" />
+      <recent name="$PROJECT_DIR$/crm/src/modules/userinfo" />
+      <recent name="$PROJECT_DIR$/crm/src/modules/userinfo/store/deprecated" />
     </key>
   </component>
-  <component name="RunManager" selected="Vitest.AccessStore">
-    <configuration name="AccessStore" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.crm:dev">
+    <configuration name="History heading section" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
-      <vitest-package value="$PROJECT_DIR$/webitel-ui-sdk/node_modules/vitest" />
-      <working-dir value="$PROJECT_DIR$/webitel-ui-sdk" />
+      <vitest-package value="$PROJECT_DIR$/cc-history/node_modules/vitest" />
+      <working-dir value="$PROJECT_DIR$/cc-history" />
       <vitest-options value="--run" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Userinfo/v2/stores/__tests__/accessStore.spec.ts" />
+      <test-file value="$PROJECT_DIR$/cc-history/src/modules/heading/components/__tests__/history-heading.spec.js" />
       <test-names>
-        <test-name value="AccessStore" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="AccessStore.allows route access if has global permission" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <vitest-package value="$PROJECT_DIR$/webitel-ui-sdk/node_modules/vitest" />
-      <working-dir value="$PROJECT_DIR$/webitel-ui-sdk" />
-      <vitest-options value="--run" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Userinfo/v2/stores/__tests__/accessStore.spec.ts" />
-      <test-names>
-        <test-name value="AccessStore" />
-        <test-name value="allows route access if has global permission" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="AccessStore.allows route access if has scope permission and section visibility" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <vitest-package value="$PROJECT_DIR$/webitel-ui-sdk/node_modules/vitest" />
-      <working-dir value="$PROJECT_DIR$/webitel-ui-sdk" />
-      <vitest-options value="--run" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Userinfo/v2/stores/__tests__/accessStore.spec.ts" />
-      <test-names>
-        <test-name value="AccessStore" />
-        <test-name value="allows route access if has scope permission and section visibility" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="AccessStore.allows route access if has scope permission" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <vitest-package value="$PROJECT_DIR$/webitel-ui-sdk/node_modules/vitest" />
-      <working-dir value="$PROJECT_DIR$/webitel-ui-sdk" />
-      <vitest-options value="--run" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Userinfo/v2/stores/__tests__/accessStore.spec.ts" />
-      <test-names>
-        <test-name value="AccessStore" />
-        <test-name value="allows route access if has scope permission" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="AccessStore.restricts route access if has scope permission, section visibility but no app visibility" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <vitest-package value="$PROJECT_DIR$/webitel-ui-sdk/node_modules/vitest" />
-      <working-dir value="$PROJECT_DIR$/webitel-ui-sdk" />
-      <vitest-options value="--run" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Userinfo/v2/stores/__tests__/accessStore.spec.ts" />
-      <test-names>
-        <test-name value="AccessStore" />
-        <test-name value="restricts route access if has scope permission, section visibility but no app visibility" />
+        <test-name value="History heading section" />
       </test-names>
       <method v="2" />
     </configuration>
     <configuration name="adm:dev JavaScript" type="JavascriptDebugType" uri="http://localhost:8080">
+      <method v="2" />
+    </configuration>
+    <configuration name="crm:dev JavaScript" type="JavascriptDebugType" uri="http://localhost:8080/crm">
       <method v="2" />
     </configuration>
     <configuration name="his:dev JavaScript" type="JavascriptDebugType" uri="http://localhost:8080/history">
@@ -254,8 +201,8 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="his:dev" type="js.build_tools.npm" temporary="true">
-      <package-json value="$PROJECT_DIR$/cc-history/package.json" />
+    <configuration name="crm:dev" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/crm/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -263,37 +210,89 @@
       <node-interpreter value="project" />
       <envs />
       <EXTENSION ID="com.intellij.lang.javascript.buildTools.npm.rc.StartBrowserRunConfigurationExtension">
-        <browser name="f83a49e5-6ed3-441f-9d8a-97d76b059892" start="true" with-js-debugger="true" url="http://localhost:8080/history" />
+        <browser name="f83a49e5-6ed3-441f-9d8a-97d76b059892" start="true" with-js-debugger="true" url="http://localhost:8080/crm" />
       </EXTENSION>
       <method v="2">
-        <option name="RunConfigurationTask" enabled="true" run_configuration_name="ui:build" run_configuration_type="js.build_tools.npm" />
-        <option name="RunConfigurationTask" enabled="true" run_configuration_name="his:link-ui" run_configuration_type="js.build_tools.npm" />
+        <option name="RunConfigurationTask" enabled="false" run_configuration_name="crm:link-ui" run_configuration_type="js.build_tools.npm" />
       </method>
+    </configuration>
+    <configuration name="crm:link-ui" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/crm/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="link:webitel-ui" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="i" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/crm/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="i" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="prepare" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/crm/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prepare" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test:unit (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/cc-history/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:unit" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="unlink:webitel-ui" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/crm/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="unlink:webitel-ui" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Compound.global:link-ui" />
+      <item itemvalue="JavaScript Debug.crm:dev JavaScript" />
       <item itemvalue="JavaScript Debug.adm:dev JavaScript" />
       <item itemvalue="JavaScript Debug.ui:dev JavaScript" />
       <item itemvalue="JavaScript Debug.his:dev JavaScript" />
+      <item itemvalue="npm.his:dev" />
       <item itemvalue="npm.adm:dev" />
+      <item itemvalue="npm.crm:dev" />
       <item itemvalue="npm.ui:build" />
       <item itemvalue="npm.his:link-ui" />
       <item itemvalue="npm.ui:dev" />
       <item itemvalue="npm.adm:link-ui" />
-      <item itemvalue="npm.his:dev" />
-      <item itemvalue="Vitest.AccessStore" />
-      <item itemvalue="Vitest.AccessStore.allows route access if has global permission" />
-      <item itemvalue="Vitest.AccessStore.allows route access if has scope permission" />
-      <item itemvalue="Vitest.AccessStore.allows route access if has scope permission and section visibility" />
-      <item itemvalue="Vitest.AccessStore.restricts route access if has scope permission, section visibility but no app visibility" />
+      <item itemvalue="npm.crm:link-ui" />
+      <item itemvalue="npm.prepare" />
+      <item itemvalue="npm.unlink:webitel-ui" />
+      <item itemvalue="npm.i" />
+      <item itemvalue="npm.test:unit (1)" />
+      <item itemvalue="Vitest.History heading section" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Vitest.AccessStore.allows route access if has global permission" />
-        <item itemvalue="Vitest.AccessStore" />
-        <item itemvalue="Vitest.AccessStore.restricts route access if has scope permission, section visibility but no app visibility" />
-        <item itemvalue="Vitest.AccessStore.allows route access if has scope permission and section visibility" />
-        <item itemvalue="Vitest.AccessStore.allows route access if has scope permission" />
+        <item itemvalue="npm.prepare" />
+        <item itemvalue="npm.i" />
+        <item itemvalue="npm.unlink:webitel-ui" />
+        <item itemvalue="npm.test:unit (1)" />
+        <item itemvalue="Vitest.History heading section" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +388,7 @@
       <option name="number" value="5921" />
       <option name="presentableId" value="WTEL-5921" />
       <option name="project" value="WTEL" />
-      <updated>1737828517220</updated>
+      <updated>1739905665978</updated>
       <workItem from="1737550191045" duration="7530000" />
       <workItem from="1737619036446" duration="2310000" />
       <workItem from="1737709304868" duration="668000" />
@@ -397,14 +396,14 @@
       <workItem from="1737828163488" duration="354000" />
     </task>
     <task active="true" id="WTEL-5592" summary="Система обмежень користувача (/userinfo)">
-      <changelist id="d8151537-1564-44a6-8cbf-cf8df163822c" name="WTEL-5592 Система обмежень користувача (/userinfo)" comment="OTHER: Система обмежень користувача (/userinfo) [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
+      <changelist id="0e6126bf-03a0-4bfc-8ac6-d0c2db2226aa" name="feat: cases rbac permissions tab [WTEL-5298](https://webitel.atlassian.net/browse/WTEL-5298)" comment="" />
       <created>1732552338319</created>
       <option name="issue" value="true" />
       <url>https://webitel.atlassian.net/browse/WTEL-5592</url>
       <option name="number" value="5592" />
       <option name="presentableId" value="WTEL-5592" />
       <option name="project" value="WTEL" />
-      <updated>1738326309609</updated>
+      <updated>1739195047616</updated>
       <workItem from="1737828517447" duration="9006000" />
       <workItem from="1737887008378" duration="1740000" />
       <workItem from="1737975145344" duration="12854000" />
@@ -418,7 +417,39 @@
       <workItem from="1738323579029" duration="3910000" />
       <workItem from="1738580411980" duration="4659000" />
       <workItem from="1738662852568" duration="4525000" />
-      <workItem from="1738671631054" duration="348000" />
+      <workItem from="1738671631054" duration="4533000" />
+      <workItem from="1738681318394" duration="8278000" />
+      <workItem from="1738750028807" duration="1544000" />
+      <workItem from="1738754974199" duration="2436000" />
+      <workItem from="1738763803547" duration="9591000" />
+      <workItem from="1738786784780" duration="3518000" />
+      <workItem from="1738844333324" duration="409000" />
+      <workItem from="1738854844862" duration="406000" />
+      <workItem from="1738865976067" duration="5411000" />
+      <workItem from="1738872984321" duration="3223000" />
+      <workItem from="1738926381539" duration="6764000" />
+      <workItem from="1739019941309" duration="10470000" />
+      <workItem from="1739037300753" duration="6441000" />
+      <workItem from="1739180878349" duration="6037000" />
+      <workItem from="1739267503808" duration="6654000" />
+      <workItem from="1739280845145" duration="10341000" />
+      <workItem from="1739301277205" duration="3607000" />
+      <workItem from="1739371488793" duration="9668000" />
+      <workItem from="1739440566790" duration="9327000" />
+      <workItem from="1739465825139" duration="3143000" />
+      <workItem from="1739526950681" duration="3098000" />
+      <workItem from="1739533367162" duration="1207000" />
+      <workItem from="1739559930283" duration="1434000" />
+      <workItem from="1739721922184" duration="3572000" />
+      <workItem from="1739789755235" duration="9446000" />
+      <workItem from="1739807008459" duration="4630000" />
+      <workItem from="1739817526443" duration="3173000" />
+      <workItem from="1739874140051" duration="2577000" />
+      <workItem from="1739878664930" duration="3564000" />
+      <workItem from="1739887160490" duration="624000" />
+      <workItem from="1739903536901" duration="2948000" />
+      <workItem from="1739969081633" duration="2153000" />
+      <workItem from="1739971346425" duration="1338000" />
     </task>
     <task id="WTEL-3752" summary="US_05. [History] Зберегти пресет">
       <created>1693209741672</created>
@@ -427,7 +458,7 @@
       <option name="number" value="3752" />
       <option name="presentableId" value="WTEL-3752" />
       <option name="project" value="WTEL" />
-      <updated>1738232566678</updated>
+      <updated>1739906368926</updated>
     </task>
     <task id="LOCAL-00008" summary="fix">
       <option name="closed" value="true" />
@@ -437,7 +468,109 @@
       <option name="project" value="LOCAL" />
       <updated>1738671978334</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix">
+      <option name="closed" value="true" />
+      <created>1738671990547</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738671990547</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix">
+      <option name="closed" value="true" />
+      <created>1738672118289</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738672118289</updated>
+    </task>
+    <task id="LOCAL-00011" summary="bump webitel-sdk@24.12.28">
+      <option name="closed" value="true" />
+      <created>1738674305074</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738674305074</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ex refactor">
+      <option name="closed" value="true" />
+      <created>1738930951355</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738930951355</updated>
+    </task>
+    <task id="WTEL-5919" summary="ui фільтри: мігрувати селект колонок на логіку, повʼязану з новими фільтрами">
+      <created>1736943117206</created>
+      <option name="issue" value="true" />
+      <url>https://webitel.atlassian.net/browse/WTEL-5919</url>
+      <option name="number" value="5919" />
+      <option name="presentableId" value="WTEL-5919" />
+      <option name="project" value="WTEL" />
+      <updated>1738932961509</updated>
+    </task>
+    <task id="WTEL-5298" summary="[Cases-Card][FE] US_27. Права доступу на Звернення">
+      <created>1729073264387</created>
+      <option name="issue" value="true" />
+      <url>https://webitel.atlassian.net/browse/WTEL-5298</url>
+      <option name="number" value="5298" />
+      <option name="presentableId" value="WTEL-5298" />
+      <option name="project" value="WTEL" />
+      <updated>1739971050637</updated>
+    </task>
+    <task id="WTEL-6184" summary="[Permissions][Roles] Відображається неправильна назва для Time-limited call history в Roles">
+      <created>1739193799855</created>
+      <option name="issue" value="true" />
+      <url>https://webitel.atlassian.net/browse/WTEL-6184</url>
+      <option name="number" value="6184" />
+      <option name="presentableId" value="WTEL-6184" />
+      <option name="project" value="WTEL" />
+      <option name="type" value="BUG" />
+      <updated>1739292142395</updated>
+    </task>
+    <task id="WTEL-5445" summary="Звернення - permissions">
+      <created>1730904357633</created>
+      <option name="issue" value="true" />
+      <url>https://webitel.atlassian.net/browse/WTEL-5445</url>
+      <option name="number" value="5445" />
+      <option name="presentableId" value="WTEL-5445" />
+      <option name="project" value="WTEL" />
+      <updated>1739875470977</updated>
+    </task>
+    <task id="LOCAL-00013" summary="upd package-lock.json">
+      <option name="closed" value="true" />
+      <created>1739475656104</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739475656104</updated>
+    </task>
+    <task id="LOCAL-00014" summary="upd package-lock.json">
+      <option name="closed" value="true" />
+      <created>1739792666822</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739792666822</updated>
+    </task>
+    <task id="LOCAL-00015" summary="bump ver">
+      <option name="closed" value="true" />
+      <created>1739792678047</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1739792678047</updated>
+    </task>
+    <task id="WTEL-5296" summary="[Cases-Card][FE] US_15. Timeline Звернення">
+      <created>1729073229593</created>
+      <option name="issue" value="true" />
+      <url>https://webitel.atlassian.net/browse/WTEL-5296</url>
+      <option name="number" value="5296" />
+      <option name="presentableId" value="WTEL-5296" />
+      <option name="project" value="WTEL" />
+      <updated>1739798691857</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <option name="createBranch" value="false" />
     <servers>
       <JIRA url="https://webitel.atlassian.net">
@@ -457,18 +590,46 @@
     <option name="version" value="3" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/composables/useWtTable/useWtTable.js" />
-        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/scripts/compareSize.js" />
-        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/install.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/filters/components/enums/amd-result-options.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/filters/components/enums/boolean-options.js" />
         <option value="$PROJECT_DIR$/webitel-ui-sdk/src/components/wt-tree-line/types/wt-tree-nested-icons.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Userinfo/v2/api/UserinfoAPI.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Userinfo/v2/enums/GlobalActions/GlobalActions.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/filters/components/enums/hangup-cause-options.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/filters/components/enums/direction-options.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/filters/components/enums/tag-options.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Userinfo/v2/enums/index.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Userinfo/v2/enums/ScopeClass/ScopeClass.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/filters/classes/FiltersManager.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Userinfo/v2/mappings/mappings.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Userinfo/v2/scripts/utils.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/index.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/filters/index.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/composables/useWtTable/useWtTable.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/filters/createTableFiltersStore.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/persist/usePersistedStorage.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/types/tableStore.types.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/filters/classes/Filter.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/install.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/filters/classes/FilterStorage.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/table/createTableStore.store.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/persist/useLocalStoragePersistedStorage.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/pagination/createTablePaginationStore.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/filters/scripts/utils.js" />
         <option value="$PROJECT_DIR$/webitel-ui-sdk/src/enums/WtObject/WtObject.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/persist/useRoutePersistedStorage.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/headers/createTableHeadersStore.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/enums/index.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/modules/Filters/v2/persist/PersistedStorage.types.js" />
+        <option value="$PROJECT_DIR$/webitel-ui-sdk/src/scripts/compareSize.js" />
       </list>
     </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="OPEN_GENERIC_TABS">
       <map>
-        <entry key="8bea11ab-33aa-4551-90e1-ebe9fbbde15e" value="TOOL_WINDOW" />
+        <entry key="908d7d73-b842-4d03-b787-fada38369be4" value="TOOL_WINDOW" />
+        <entry key="d475e831-b19b-4567-93f7-f78181aa3632" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="RECENT_FILTERS">
@@ -476,6 +637,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="origin/master" />
@@ -499,7 +665,7 @@
     </option>
     <option name="TAB_STATES">
       <map>
-        <entry key="8bea11ab-33aa-4551-90e1-ebe9fbbde15e">
+        <entry key="908d7d73-b842-4d03-b787-fada38369be4">
           <value>
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
@@ -512,7 +678,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/refactor/new-enums" />
                       </list>
                     </value>
                   </entry>
@@ -525,7 +691,6 @@
                   </entry>
                 </map>
               </option>
-              <option name="SHOW_ROOT_NAMES" value="true" />
             </State>
           </value>
         </entry>
@@ -537,7 +702,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="refactor/user-access-v2" />
                       </list>
                     </value>
                   </entry>
@@ -545,6 +710,36 @@
                     <value>
                       <list>
                         <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="d475e831-b19b-4567-93f7-f78181aa3632">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/crm" />
+                        <option value="$PROJECT_DIR$/web-client-auth" />
+                        <option value="$PROJECT_DIR$/client" />
+                        <option value="$PROJECT_DIR$/cc-quality-auditor" />
+                        <option value="$PROJECT_DIR$" />
+                        <option value="$PROJECT_DIR$/cc-supervisor" />
+                        <option value="$PROJECT_DIR$/cc-workspaces" />
+                        <option value="$PROJECT_DIR$/cc-history" />
+                        <option value="$PROJECT_DIR$/webitel-ui-sdk" />
                       </list>
                     </value>
                   </entry>
@@ -559,43 +754,33 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="bump version [WTEL-3752](https://webitel.atlassian.net/browse/WTEL-3752)" />
-    <MESSAGE value="fix: compareSize.ts script [WTEL-3752](https://webitel.atlassian.net/browse/WTEL-3752)" />
-    <MESSAGE value="bump ver [WTEL-3752](https://webitel.atlassian.net/browse/WTEL-3752)" />
-    <MESSAGE value="fix: rollback activator slot for wt-popup [WTEL-3752](https://webitel.atlassian.net/browse/WTEL-3752)" />
-    <MESSAGE value="fix: preset features in progress [WTEL-3751](https://webitel.atlassian.net/browse/WTEL-3751)&#10;[WTEL-3752](https://webitel.atlassian.net/browse/WTEL-3752)" />
-    <MESSAGE value="feat: wt-table headers typing, api module typing [WTEL-5921](https://webitel.atlassian.net/browse/WTEL-5921)" />
-    <MESSAGE value="refactor: history registry refactor with pinia store [WTEL-5921](https://webitel.atlassian.net/browse/WTEL-5921)" />
-    <MESSAGE value="OTHER: Система обмежень користувача (/userinfo) [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
-    <MESSAGE value="fix: filenames preventing ts compiling [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
-    <MESSAGE value="fix: tsc issues preventing build fixed [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
-    <MESSAGE value="fix: enum imports [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
-    <MESSAGE value="fix: old userinfo module api usage [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
-    <MESSAGE value="fix: rm transitions, deduped vue and @vue/compat [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
-    <MESSAGE value="fix: tabs composable usage [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
-    <MESSAGE value="refactor: ts support: main deps, files, file changes [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
-    <MESSAGE value="refactor: ts support fixes [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
-    <MESSAGE value="refactor: access control refactors and fixes [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
-    <MESSAGE value="fix: wt-popup overlay glitching at component init [WTEL-3752](https://webitel.atlassian.net/browse/WTEL-3752)" />
-    <MESSAGE value="fix: wt applications enums case conversion [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
-    <MESSAGE value="fix: docs build [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
-    <MESSAGE value="fix: roles access tab, popup overlay appearance [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
-    <MESSAGE value="feat: load-preset.svg icon [WTEL-3752](https://webitel.atlassian.net/browse/WTEL-3752)" />
-    <MESSAGE value="refactor: upd user access mappings file [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
-    <MESSAGE value="refactor: compiled userinfo ts files [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
-    <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="fix: access control v2 module redirct to /access-denied page on navigation guard restriction [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
+    <MESSAGE value="merge with master [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
+    <MESSAGE value="upd webitel-ui [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
+    <MESSAGE value="feat: cases rbac permissions tab [WTEL-5298](https://webitel.atlassian.net/browse/WTEL-5298)" />
+    <MESSAGE value="fix: app init error on userinfo loading error [WTEL-5592](https://webitel.atlassian.net/browse/WTEL-5592)" />
+    <MESSAGE value="fix: locale breaking build [WTEL-6184](https://webitel.atlassian.net/browse/WTEL-6184)" />
+    <MESSAGE value="feat: sources lookup access control [WTEL-6184](https://webitel.atlassian.net/browse/WTEL-6184)" />
+    <MESSAGE value="Merge pull request #313 from webitel/feat/case-sources-permissions&#10;&#10;fix: case sources permissions [WTEL-5445](https://webitel.atlassian.n…" />
+    <MESSAGE value="fix: added new cases-related lookups to &quot;dictionary&quot; access scope mappings [WTEL-6184](https://webitel.atlassian.net/browse/WTEL-6184)" />
+    <MESSAGE value="feat: added cases-related lookups access control [WTEL-6184](https://webitel.atlassian.net/browse/WTEL-6184)" />
+    <MESSAGE value="feat: added cases-related lookups locales and ApplicationsAccess.js [WTEL-5445](https://webitel.atlassian.net/browse/WTEL-5445)" />
+    <MESSAGE value="fix: service catalogs access control [WTEL-5445](https://webitel.atlassian.net/browse/WTEL-5445)" />
+    <MESSAGE value="refactor: cases namespace [WTEL-5298](https://webitel.atlassian.net/browse/WTEL-5298)" />
+    <MESSAGE value="fix: file saver import [WTEL-5298](https://webitel.atlassian.net/browse/WTEL-5298)" />
+    <MESSAGE value="upd package-lock.json" />
+    <MESSAGE value="bump ver" />
+    <MESSAGE value="refactor: variable-column-select.vue [WTEL-5921](https://webitel.atlassian.net/browse/WTEL-5921)" />
+    <MESSAGE value="refactor: case timeline chat history url [WTEL-5296](https://webitel.atlassian.net/browse/WTEL-5296)" />
+    <MESSAGE value="refactor: variable-column-select locale [WTEL-5921](https://webitel.atlassian.net/browse/WTEL-5921)" />
+    <MESSAGE value="fix: small filters/v2 fixes [WTEL-5921](https://webitel.atlassian.net/browse/WTEL-5921)" />
+    <MESSAGE value="refactor: removed unused, + cleanups [WTEL-5921](https://webitel.atlassian.net/browse/WTEL-5921)" />
+    <MESSAGE value="refactor: small refactor cleanups [WTEL-5921](https://webitel.atlassian.net/browse/WTEL-5921)" />
+    <MESSAGE value="fix: filter names [WTEL-5921](https://webitel.atlassian.net/browse/WTEL-5921)" />
+    <MESSAGE value="feat: service catalogs lvl-2 access control [WTEL-5921](https://webitel.atlassian.net/browse/WTEL-5921)" />
+    <MESSAGE value="fix: packages [WTEL-5298](https://webitel.atlassian.net/browse/WTEL-5298)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: packages [WTEL-5298](https://webitel.atlassian.net/browse/WTEL-5298)" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint type="javascript">
-          <url>file://$PROJECT_DIR$/webitel-ui-sdk/tests/config/config.js</url>
-          <line>4</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
